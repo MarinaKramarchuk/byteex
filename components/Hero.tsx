@@ -2,6 +2,7 @@ import Image from "next/image";
 import Link from "next/link";
 import Button from "./ui/Button";
 import ArrowRight from "./ui/ArrowRight";
+import Raiting from "./ui/Raiting";
 
 export default function Hero() {
   return (
@@ -104,12 +105,31 @@ export default function Hero() {
               </p>
             </div>
           </div>
-          <Button >
+          <Button>
             Customize Your Outfit
             <ArrowRight />
           </Button>
-          <div className="absolute w-full md:w-90 h-33 md:h-43 bg-[#ffffff] -bottom-15 md:-bottom-18 left-0 z-5 border border-[#EDEDED] shadow-[0px_3px_10px_1px_#00000014]">
-            {" "}
+          <div className="absolute w-full rounded-lg md:w-90 p-4 md:h-43 bg-[#ffffff] -bottom-15 md:-bottom-18 left-0 z-5 border border-[#EDEDED] shadow-[0px_3px_10px_1px_#00000014]">
+            <div className="flex flex-row gap-3 mb-3">
+              <Image
+                src="/foto.webp"
+                alt="Social Media Photo"
+                width={39}
+                height={39}
+                className="rounded-full"
+              />
+              <div className="flex flex-col gap-1">
+                <Raiting rating={5} className="text-[11px] leading-4" />
+                <p className="text-[#676869] text-left font-normal text-[12px] leading-5 tracking-[0.02em]">
+                  Jane, S.
+                </p>
+              </div>
+            </div>
+
+            <p className="text-[#676869] font-normal text-[15px] leading-6 tracking-[0.03em]">
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+              Pellentesque sed sollicitudin dolor, non sodales justo.
+            </p>
           </div>
         </div>
         <div>

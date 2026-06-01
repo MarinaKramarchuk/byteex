@@ -124,11 +124,8 @@ export default function Benefits() {
                 Customize Your Outfit
                 <ArrowRight />
               </Button>
-              <div className="flex flex-row items-center justify-center mt-3 pb-3 gap-3">
-                <Rating />
-                <p className="text-[#828282] text-center font-normal text-[12px] leading-5 tracking-[0.02em]">
-                  Over 500+ 5 Star Reviews Online
-                </p>
+              <div className=" mt-3 pb-3">
+                <Rating rating={5} className="text-[12px] leading-6" />
               </div>
             </div>
             <div
