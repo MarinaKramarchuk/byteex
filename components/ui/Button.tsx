@@ -20,13 +20,12 @@ export default function Button({
     <button
       onClick={onClick}
       className={`
-        px-4 py-2 rounded-[5px] font-normal text-[18px] leading-[100%] 
+        px-8 py-4 rounded-[5px] font-normal text-[18px] leading-[100%] 
         tracking-[0.03em] flex items-center justify-center gap-2 transition-colors cursor-pointer
         ${variantStyles} ${className}
       `}
     >
       {children}
-
     </button>
   );
 }

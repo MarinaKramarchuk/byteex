@@ -1,12 +1,13 @@
 import Image from "next/image";
 import Link from "next/link";
 import Button from "./ui/Button";
+import ArrowRight from "./ui/ArrowRight";
 
 export default function Hero() {
   return (
     <>
       <div className="bg-[#F9F0E5] w-full min-h-9 flex items-center justify-center text-[#676869] text-[11px] px-4 text-center">
-        <span className="hidden md:inline">
+        <span className="hidden md:inline ">
           CONSCIOUSLY MADE BUTTER SOFT STAPLES FOR EVERY DAY (OR NIGHT)
         </span>
 
@@ -19,7 +20,7 @@ export default function Hero() {
         <span className="hidden md:inline"> easy 45 day return window.</span>
       </div>
 
-      <section className=" max-w-7xl mx-auto w-full min-h-150 grid grid-cols-1 md:grid-cols-2 gap-2.5 md:gap-12.5 items-center px-5 md:px-0 pt-4 md:pt-8 lg:pl-24 lg:pr-8">
+      <section className=" max-w-7xl mx-auto w-full min-h-150 grid grid-cols-1 md:grid-cols-2 gap-2.5 md:gap-12.5 items-center px-5 md:px-10 pt-4 md:pt-8 lg:pl-24 lg:pr-8">
         <div className=" relative mx-auto w-full flex flex-col items-center md:items-start pb-34 md:pb-43 gap-0">
           <Link href="/">
             <Image
@@ -103,22 +104,11 @@ export default function Hero() {
               </p>
             </div>
           </div>
-          <Button variant="primary" className="px-10 py-4">
+          <Button >
             Customize Your Outfit
-            <svg
-              width="20"
-              height="20"
-              viewBox="0 0 24 24"
-              fill="none"
-              stroke="currentColor"
-              strokeWidth="1.5"
-              strokeLinecap="round"
-              strokeLinejoin="round"
-            >
-              <path d="M5 12h14M12 5l7 7-7 7" />
-            </svg>
+            <ArrowRight />
           </Button>
-          <div className="absolute w-full md:w-123.5 h-33 md:h-43 bg-[#ffffff] -bottom-15 md:-bottom-18 left-0 z-5 border border-[#EDEDED] shadow-[0px_3px_10px_1px_#00000014]">
+          <div className="absolute w-full md:w-90 h-33 md:h-43 bg-[#ffffff] -bottom-15 md:-bottom-18 left-0 z-5 border border-[#EDEDED] shadow-[0px_3px_10px_1px_#00000014]">
             {" "}
           </div>
         </div>

@@ -2,13 +2,30 @@
 
 :root {
   --background: #ffffff;
-  --background-secondary: #F0EEEF;
+  --background-secondary: #f0eeef;
   --foreground: #171717;
-    --color-brand-navy: #F9F0E5;
-  --color-brand-blue: #01005B;
+  --color-brand-navy: #f9f0e5;
+  --color-brand-blue: #01005b;
   --color-text-primary: #676869;
 }
 
+.swiper-pagination-bullet {
+  background-color: #c4c4c4 !important;
+  opacity: 1 !important;
+}
 
+.swiper-pagination-bullet-active {
+  background-color: #000000 !important;
+}
 
+.swiper-pagination {
+  bottom: 0px !important;
+}
+.swiper-wrapper {
+  height: 55px !important;
+}
 
+.swiper-slide-thumb-active img {
+  border-color: #000 !important;
+  opacity: 1 !important;
+}
