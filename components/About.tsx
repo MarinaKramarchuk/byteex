@@ -11,7 +11,7 @@ export default function About() {
               Be your best self.
             </h2>
           </div>
-          <div className="relative pt-6 pb-6 md:pt-14 md:pb-14 md:pl-5 md:pr-5">
+          <div className="relative max-w-86 mx-auto pt-6 pb-6 md:pt-14 md:pb-14 md:pl-5 md:pr-5">
             <Image
               src="/girl1.webp"
               alt="Girl Photo"

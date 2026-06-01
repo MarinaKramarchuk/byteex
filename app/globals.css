@@ -22,10 +22,17 @@
   bottom: 0px !important;
 }
 .swiper-wrapper {
-  height: 55px !important;
+  min-height: 55px !important;
 }
 
 .swiper-slide-thumb-active img {
   border-color: #000 !important;
   opacity: 1 !important;
+}
+
+@media (min-width: 768px) {
+  .my-slider-class .swiper-wrapper {
+    pointer-events: none; 
+  }
+  
 }

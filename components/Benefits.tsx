@@ -119,7 +119,7 @@ export default function Benefits() {
                 </p>
               </div>
             </div>
-            <div className="w-full md:hidden z-1">
+            <div className="w-full flex flex-col items-center md:hidden z-1">
               <Button>
                 Customize Your Outfit
                 <ArrowRight />
