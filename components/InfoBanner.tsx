@@ -1,4 +1,3 @@
-import Accordion from "./ui/Accordion";
 import Image from "next/image";
 
 export default function InfoBanner() {
@@ -8,7 +7,7 @@ export default function InfoBanner() {
         <h2 className="w-50% mb-4 md:mb-6  text-center md:text-left font-normal text-[26px] leading-8 md:leading-11.25 tracking-[0.04em] text-[#01005B]">
           Our total green impact
         </h2>
-        <div className="flex flex-row">
+        <div className="flex flex-col md:flex-row">
           <div className="flex flex-col justify-center items-center py-3 px-10">
             <Image
               src="/green_icon1.svg"
@@ -24,7 +23,7 @@ export default function InfoBanner() {
               of CO2 saved
             </p>
           </div>
-          <div className="flex flex-col justify-center items-center py-3 px-10 border-r border-l border-[#C4C4C480]">
+          <div className="flex flex-col justify-center items-center py-3 px-10 border-t border-b md:border-r md:border-t-0 md:border-b-0 md:border-l border-[#C4C4C480]">
             <Image
               src="/green_icon2.svg"
               alt="Carbon Footprint Icon"

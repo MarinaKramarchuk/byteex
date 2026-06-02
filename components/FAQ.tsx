@@ -15,8 +15,8 @@ export default function FAQ() {
         </div>
         <div className="relative w-[70%] h-140 hidden md:block">
           <div className="flex items-center justify-center gap-4 py-20 ">
-            <div className="absolute left-8 top-17 w-36 h-45 bg-linear-to-b from-[#F9F0E5]/[0.217] to-[#F9F0E5]/70 -z-10" />
-            <div className="absolute right-14 bottom-20 w-36 h-45 bg-linear-to-b from-[#F9F0E5]/[0.217] to-[#F9F0E5]/70 -z-10" />
+            <div className="absolute left-8 w-36 h-45 bg-linear-to-b from-[#F9F0E5]/[0.217] to-[#F9F0E5]/70 -z-10" />
+            <div className="absolute right-14 w-36 h-45 bg-linear-to-b from-[#F9F0E5]/[0.217] to-[#F9F0E5]/70 -z-10" />
 
             <div className="absolute w-55 h-40 left-0 bottom-0 shadow-[0px_3px_10px_1px_#00000014] overflow-hidden">
               <Image
@@ -33,7 +33,7 @@ export default function FAQ() {
                 width={227}
                 height={335}
                 alt="Girl 1"
-                className="object-cover "
+                className="object-cover w-full h-full"
               />
             </div>
             <div className="absolute right-0 top-0 overflow-hidden  shadow-[0px_3px_10px_1px_#00000014]">
@@ -42,7 +42,7 @@ export default function FAQ() {
                 width={167}
                 height={253}
                 alt="Girl 3"
-                className="object-cover"
+                className="object-cover w-full h-full"
               />
             </div>
           </div>

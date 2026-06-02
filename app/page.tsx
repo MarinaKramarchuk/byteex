@@ -2,6 +2,7 @@ import About from "@/components/About";
 import Benefits from "@/components/Benefits";
 import Fans from "@/components/Fans";
 import FAQ from "@/components/FAQ";
+import FinalSection from "@/components/FinalSection";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 import InfoBanner from "@/components/InfoBanner";
@@ -17,6 +18,7 @@ export default function Home() {
         <Fans />
         <FAQ />
         <InfoBanner />
+        <FinalSection />
       </main>
     </div>
   );
