@@ -73,7 +73,7 @@ export default function About() {
             Cras mattis varius mollis.{" "}
           </p>{" "}
           <p className="text-[#6C6C6C] text-left font-normal text-[15px] leading-6 tracking-[0.03em] mb-6"></p>
-          <Button className="hidden md:block px-17">
+          <Button className="hidden md:block px-12 py-3 mb-2">
             Customize Your Outfit
           </Button>
         </div>

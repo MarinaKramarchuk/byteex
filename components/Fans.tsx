@@ -1,6 +1,7 @@
 import Button from "./ui/Button";
 import ReviewSlider from "./ui/reviewSlider";
 import Rating from "./ui/Raiting";
+import ArrowRight from "./ui/ArrowRight";
 
 export default function Fans() {
   return (
@@ -22,7 +23,9 @@ export default function Fans() {
         <ReviewSlider />
       </div>
       <div>
-        <Button className="px-8 py-3 mb-2">Read more reviews</Button>
+        <Button className="px-12 py-3 mb-2">Customize Your Outfit 
+          <ArrowRight/>
+        </Button>
         <Rating rating={5} className="text-[11px] leading-4 text-center" />
       </div>
     </section>

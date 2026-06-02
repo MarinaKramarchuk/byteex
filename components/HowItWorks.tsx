@@ -14,7 +14,7 @@ export default function HowItWorks() {
         </div>
         <CardsSlider />
         <div className="pt-10 md:pt-14 flex flex-col items-center gap-3">
-          <Button>
+          <Button className="px-12 py-3 mb-2">
             Customize Your Outfit
             <ArrowRight />
           </Button>
