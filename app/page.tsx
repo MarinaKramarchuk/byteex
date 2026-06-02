@@ -4,6 +4,7 @@ import Fans from "@/components/Fans";
 import FAQ from "@/components/FAQ";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
+import InfoBanner from "@/components/InfoBanner";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
         <HowItWorks />
         <Fans />
         <FAQ />
+        <InfoBanner />
       </main>
     </div>
   );

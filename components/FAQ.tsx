@@ -3,7 +3,7 @@ import Image from "next/image";
 
 export default function FAQ() {
   return (
-    <section>
+    <section className="pb-20">
       <div className="flex flex-row gap-20 max-w-6xl mx-auto px-5 md:px-10">
         <div className="flex w-full flex-col items-start justify-start ">
           <div>
