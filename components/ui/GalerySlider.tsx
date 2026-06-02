@@ -44,10 +44,10 @@ export default function GallerySlider() {
           ))}
         </Swiper>
 
-        <button className="custom-prev absolute -left-5 top-1/2 z-10 -translate-y-1/2 p-2 transition-all">
+        <button className="custom-prev cursor-pointer absolute -left-5 top-1/2 z-10 -translate-y-1/2 p-2 transition-all">
           <ChevronLeft className="w-8 h-8 text-[#676869]" />
         </button>
-        <button className="custom-next absolute -right-5 top-1/2 z-10 -translate-y-1/2 p-2 transition-all">
+        <button className="custom-next cursor-pointer absolute -right-5 top-1/2 z-10 -translate-y-1/2 p-2 transition-all">
           <ChevronRight className="w-8 h-8 text-[#676869]" />
         </button>
       </div>

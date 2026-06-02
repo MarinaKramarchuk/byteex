@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Benefits from "@/components/Benefits";
+import Fans from "@/components/Fans";
 import Hero from "@/components/Hero";
 import HowItWorks from "@/components/HowItWorks";
 
@@ -11,6 +12,7 @@ export default function Home() {
         <Benefits />
         <About />
         <HowItWorks />
+        <Fans />
       </main>
     </div>
   );

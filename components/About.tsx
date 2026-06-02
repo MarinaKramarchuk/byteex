@@ -5,13 +5,13 @@ export default function About() {
   return (
     <section className="w-full bg-[#F0EEEF] pt-10 pb-10 md:pt-20 md:pb-14">
       <div className="max-w-7xl mx-auto w-full min-h-150 grid grid-cols-1 md:grid-cols-2 gap-10 md:gap-0 lg:gap-0 items-center px-5 md:px-10 pt-4 md:pt-8 lg:pl-24 lg:pr-8">
-        <div className="mr-0 md:mr-25">
+        <div className="mr-0 md:mr-15">
           <div className="flex-1 max-w-6xl mx-auto px-5 md:hidden">
             <h2 className="w-50% mb-4  text-center font-normal text-[26px] leading-8  tracking-[0.04em] text-[#01005B]">
               Be your best self.
             </h2>
           </div>
-          <div className="relative max-w-86 mx-auto pt-6 pb-6 md:pt-14 md:pb-14 md:pl-5 md:pr-5">
+          <div className="relative max-w-105 mx-auto pt-6 pb-6 md:pt-14 md:pb-14 md:pr-5 md:pl-5">
             <Image
               src="/girl1.webp"
               alt="Girl Photo"
