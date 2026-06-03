@@ -20,7 +20,7 @@ export default function Fans() {
         </p>
       </div>
       <div>
-        {/* <GalleryWrapper /> */}
+        <GalleryWrapper />
       </div>
       <div>
         {/* <ReviewSlider /> */}
