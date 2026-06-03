@@ -23,7 +23,7 @@ export default function Fans() {
         {/* <GalleryWrapper /> */}
       </div>
       <div>
-        <ReviewSlider />
+        {/* <ReviewSlider /> */}
       </div>
       <div>
         <Button className="px-12 py-3 mb-2">
