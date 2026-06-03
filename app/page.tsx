@@ -1,4 +1,3 @@
-
 import About from "@/components/sections/About";
 import Benefits from "@/components/sections/Benefits";
 import Fans from "@/components/sections/Fans";
@@ -7,6 +6,7 @@ import FinalSection from "@/components/sections/FinalSection";
 import Hero from "@/components/sections/Hero";
 import HowItWorks from "@/components/sections/HowItWorks";
 import InfoBanner from "@/components/sections/InfoBanner";
+export const dynamic = "force-dynamic";
 
 export default function Home() {
   return (
