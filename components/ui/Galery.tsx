@@ -7,12 +7,12 @@ interface GalleryProps {
 
 export default function Gallery({ images }: GalleryProps) {
   return (
-    <div className="grid grid-cols-4 grid-rows-2 lg:grid-cols-11 gap-1 w-full">
+    <div className="grid grid-cols-4 grid-rows-2 lg:grid-cols-11 gap-1">
       {images.map((img, index) => (
         <div
           key={index}
           className={`relative w-25 h-25 md:w-33 md:h-33 aspect-square overflow-hidden 
-            ${index >= 8 ? 'hidden lg:block' : 'block'}`}
+            ${index >= 8 ? "hidden lg:block" : "block"}`}
         >
           <Image
             src={img.url}
