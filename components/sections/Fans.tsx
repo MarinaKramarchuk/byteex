@@ -22,7 +22,7 @@ export default function Fans() {
       <div>
         <GalleryWrapper />
       </div>
-      <div>
+      <div className="w-screen lg:w-360 px-5 lg:px-10">
         <ReviewSlider />
       </div>
       <div>

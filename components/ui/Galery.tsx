@@ -12,7 +12,7 @@ export default function Gallery({ images }: GalleryProps) {
         <div
           key={index}
           className={`relative w-25 h-25 md:w-33 md:h-33 aspect-square overflow-hidden 
-            ${index >= 8 ? 'hidden md:block' : 'block'}`}
+            ${index >= 8 ? 'hidden lg:block' : 'block'}`}
         >
           <Image
             src={img.url}

@@ -17,14 +17,14 @@ export default function Benefits() {
       <p className="text-center text-[#868787] text-[20px] leading-6 tracking-[0.03em] pb-5">
         as seen in
       </p>
-      <div className="hidden md:flex max-w-6xl mx-auto items-center justify-between gap-14 mb-28 px-5 md:px-10 ">
+      <div className="hidden lg:flex max-w-6xl mx-auto items-center justify-between gap-14 mb-28 px-5 md:px-10 ">
         <Image src="/logo1.webp" width={178} height={22} alt="Logo 1" />
         <Image src="/logo2.webp" width={111} height={52} alt="Logo 2" />
         <Image src="/logo3.webp" width={271} height={53} alt="Logo 3" />
         <Image src="/logo4.webp" width={194} height={37} alt="Logo 4" />
         <Image src="/logo5.webp" width={192} height={58} alt="Logo 5" />
       </div>
-      <div className="md:hidden max-w-6xl mx-auto px-5 md:px-10 mb-11">
+      <div className="lg:hidden max-w-6xl mx-auto px-5 md:px-10 mb-11">
         <SliderLogo />
       </div>
 
