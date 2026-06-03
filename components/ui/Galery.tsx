@@ -1,3 +1,4 @@
+"use client";
 import Image from "next/image";
 
 interface GalleryProps {
@@ -6,13 +7,17 @@ interface GalleryProps {
 
 export default function Gallery({ images }: GalleryProps) {
   return (
-    <div className="grid grid-cols-4 grid-rows-2 md:grid-cols-6 lg:grid-cols-11 gap-1">
+    <div className="grid grid-cols-4 grid-rows-2 lg:grid-cols-11 gap-1 w-full">
       {images.map((img, index) => (
-        <div key={index} className="aspect-square overflow-hidden">
+        <div
+          key={index}
+          className={`relative w-25 h-25 md:w-33 md:h-33 aspect-square overflow-hidden 
+            ${index >= 8 ? 'hidden md:block' : 'block'}`}
+        >
           <Image
             src={img.url}
-            loading="lazy"
             alt="Gallery"
+            fill
             className="w-full h-full object-cover"
           />
         </div>

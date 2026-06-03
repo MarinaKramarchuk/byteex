@@ -8,16 +8,9 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import Image from "next/image";
+import { Review } from "@/types";
 
-export interface Review {
-  id: string;
-  name: string;
-  rating: number;
-  comment: string;
-  avatar: {
-    url: string;
-  };
-}
+
 
 export default function ReviewSliderClient({ reviews }: { reviews: Review[] }) {
   return (

@@ -1,3 +1,5 @@
+import { GalleryConnection } from "@/types";
+
 export async function getReviews() {
   const query = `
     query GetReviews {
@@ -22,4 +24,36 @@ export async function getReviews() {
 
   const { data } = await res.json();
   return data.reviews;
+}
+
+export async function getGalleryImages() {
+  const query = `
+    query GetGalleryImages {
+      galleryImagesConnection(first: 50) {
+        edges {
+          node {
+            id
+            image {
+              url
+            }
+          }
+        }
+      }
+    }
+  `;
+
+  const res = await fetch(process.env.HYGRAPH_ENDPOINT!, {
+    method: "POST",
+    headers: { "Content-Type": "application/json" },
+    body: JSON.stringify({ query }),
+    next: { revalidate: 60 },
+  });
+
+  const { data } = await res.json();
+
+  const connection: GalleryConnection = data.galleryImagesConnection;
+
+  return connection.edges.map((edge) => ({
+    url: edge.node.image.url,
+  }));
 }

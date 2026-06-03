@@ -2,11 +2,12 @@ import Rating from "../Raiting";
 import ReviewSlider from "../ReviewSlider";
 import ArrowRight from "../ui/ArrowRight";
 import Button from "../ui/Button";
+import GalleryWrapper from "../GalleryWrapper";
 
 
 export default function Fans() {
   return (
-    <section className="w-full bg-[#ffffff] pt-10 pb-10 md:pt-20 md:pb-14 gap-14 flex flex-col items-center">
+    <section className="w-full bg-[#ffffff] pt-10 pb-10 md:pt-20 md:pb-14 flex flex-col items-center">
       <div className="max-w-153 mx-auto pt-10 pb-10 md:pt-20 md:pb-14 flex flex-col items-center">
         <div className="flex-1 max-w-6xl mx-auto x-5 md:px-10">
           <h2 className="w-50% mb-4 md:mb-6  text-center md:text-left font-normal text-[26px] md:text-[32px] leading-8 md:leading-11.25 tracking-[0.04em] text-[#01005B]">
@@ -19,7 +20,10 @@ export default function Fans() {
           felis finibus consequat. Fusce non nibh luctus.
         </p>
       </div>
-      <div>{/* <Gallery /> */}</div>
+      <div className="pb-4">
+        <GalleryWrapper />
+
+      </div>
       <div>
         <ReviewSlider />
       </div>
