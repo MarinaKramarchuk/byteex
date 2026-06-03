@@ -1,9 +1,9 @@
 import Image from "next/image";
 import Link from "next/link";
-import Button from "./ui/Button";
-import ArrowRight from "./ui/ArrowRight";
-import Raiting from "./ui/Raiting";
-
+import Button from "../ui/Button";
+import ArrowRight from "../ui/ArrowRight";
+import Raiting from "../Raiting";
+  
 export default function Hero() {
   return (
     <>

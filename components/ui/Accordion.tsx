@@ -1,6 +1,6 @@
 "use client";
 import { useState } from "react";
-import { Plus, Minus } from "lucide-react"; // Іконки з Lucide
+import { Plus, Minus } from "lucide-react"; 
 
 const items = [
   { title: "Lorem ipsum dolor sit amet", content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce lobortis sapien facilisis tincidunt pellentesque. In eget ipsum et felis finibus consequat." },

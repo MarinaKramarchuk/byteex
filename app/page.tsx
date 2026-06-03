@@ -1,11 +1,12 @@
-import About from "@/components/About";
-import Benefits from "@/components/Benefits";
-import Fans from "@/components/Fans";
-import FAQ from "@/components/FAQ";
-import FinalSection from "@/components/FinalSection";
-import Hero from "@/components/Hero";
-import HowItWorks from "@/components/HowItWorks";
-import InfoBanner from "@/components/InfoBanner";
+
+import About from "@/components/sections/About";
+import Benefits from "@/components/sections/Benefits";
+import Fans from "@/components/sections/Fans";
+import FAQ from "@/components/sections/FAQ";
+import FinalSection from "@/components/sections/FinalSection";
+import Hero from "@/components/sections/Hero";
+import HowItWorks from "@/components/sections/HowItWorks";
+import InfoBanner from "@/components/sections/InfoBanner";
 
 export default function Home() {
   return (

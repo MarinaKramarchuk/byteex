@@ -1,5 +1,5 @@
-import Accordion from "./ui/Accordion";
 import Image from "next/image";
+import Accordion from "../ui/Accordion";
 
 export default function FAQ() {
   return (

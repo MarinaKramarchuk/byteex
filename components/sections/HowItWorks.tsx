@@ -1,7 +1,8 @@
-import Button from "./ui/Button";
-import CardsSlider from "./ui/CardsSlider";
-import ArrowRight from "./ui/ArrowRight";
-import Raiting from "./ui/Raiting";
+import CardsSlider from "../CardsSlider";
+import ArrowRight from "../ui/ArrowRight";
+import Button from "../ui/Button";
+import Raiting from "../Raiting";
+
 
 export default function HowItWorks() {
   return (

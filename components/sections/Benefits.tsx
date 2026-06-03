@@ -1,9 +1,9 @@
 import Image from "next/image";
-import SliderLogo from "./ui/SliderLogo";
-import GallerySlider from "./ui/GalerySlider";
-import Button from "./ui/Button";
-import ArrowRight from "./ui/ArrowRight";
-import Rating from "./ui/Raiting";
+import SliderLogo from "../SliderLogo";
+import GallerySlider from "../GalerySlider";
+import Button from "../ui/Button";
+import ArrowRight from "../ui/ArrowRight";
+import Rating from "../Raiting";
 
 export default function Benefits() {
   return (

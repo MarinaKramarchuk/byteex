@@ -1,7 +1,8 @@
-import Button from "./ui/Button";
-import ReviewSlider from "./ui/reviewSlider";
-import Rating from "./ui/Raiting";
-import ArrowRight from "./ui/ArrowRight";
+import Rating from "../Raiting";
+import ReviewSlider from "../ReviewSlider";
+import ArrowRight from "../ui/ArrowRight";
+import Button from "../ui/Button";
+
 
 export default function Fans() {
   return (
