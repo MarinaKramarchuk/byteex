@@ -1,4 +1,4 @@
-import { GalleryConnection } from "@/types";
+import { GalleryConnection, Review } from "@/types";
 
 export async function getReviews() {
   const query = `
@@ -23,7 +23,10 @@ export async function getReviews() {
   });
 
   const { data } = await res.json();
-  return data.reviews;
+  
+  if (!data || !data.reviews) return [];
+
+  return data.reviews.filter((r: Review) => r.name && r.comment);
 }
 
 export async function getGalleryImages() {
